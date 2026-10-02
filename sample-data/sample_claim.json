@@ -1,1 +1,8 @@
-
+{
+  "claim_number": "CLM1001",
+  "patient_id": "P1001",
+  "hospital": "Sample General Hospital",
+  "service_date": "2026-09-15",
+  "treatment": "General Consultation",
+  "claim_amount": 25000
+}
