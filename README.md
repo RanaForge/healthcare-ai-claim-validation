@@ -83,7 +83,7 @@ Example extracted information:
   "treatment": "General Consultation",
   "claim_amount": 25000
 }
-
+```
 ## 🤖 AI Agent
 
 The AI Agent acts as the decision-making component of the claim validation workflow.
