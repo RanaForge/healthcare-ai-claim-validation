@@ -1,1 +1,6 @@
-
+patient_id,patient_name,coverage_amount
+P1001,Sample Patient A,50000
+P1002,Sample Patient B,75000
+P1003,Sample Patient C,100000
+P1004,Sample Patient D,60000
+P1005,Sample Patient E,80000
