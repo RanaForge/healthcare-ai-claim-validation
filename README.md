@@ -114,6 +114,13 @@ files are included.
 Screenshots and architecture diagrams will be added to
 demonstrate the solution workflow.
 
+## 📂 Project Resources
+
+- 🏗️ [Solution Architecture](architecture/architecture.png)
+- 📋 [Sample Claim JSON](sample-data/sample_claim.json)
+- 👤 [Sample Patient Coverage Data](sample-data/patient_coverage.csv)
+- 📖 [Claim Validation Rules](docs/validation-rules.md)
+
 ## 🚀 Project Status
 
 Development and testing completed.
