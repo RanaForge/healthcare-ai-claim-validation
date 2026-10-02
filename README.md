@@ -66,6 +66,24 @@ extraction.
 The AI Agent uses the available tools and extracted information
 to support the claim validation process.
 
+## 🔄 Example Claim Processing
+
+### Input
+
+A medical claim is received through email with an invoice attachment.
+
+Example extracted information:
+
+```json
+{
+  "claim_number": "CLM1001",
+  "patient_id": "P1001",
+  "hospital": "Sample General Hospital",
+  "service_date": "2026-09-15",
+  "treatment": "General Consultation",
+  "claim_amount": 25000
+}
+
 ## 🤖 AI Agent
 
 The AI Agent acts as the decision-making component of the claim validation workflow.
@@ -156,3 +174,31 @@ Development and testing completed.
 This repository contains the project documentation and
 demonstration materials rather than the proprietary
 Automation Anywhere bot implementation.
+
+## ⚠️ Limitations
+
+This project is a demonstration of an AI-assisted claim validation workflow.
+
+The repository does not contain:
+
+- Real patient information
+- Production healthcare records
+- Client-specific data
+- Production credentials or API keys
+- Internal server or application details
+- Proprietary Automation Anywhere bot files
+
+The sample data included in this repository is fictional and provided only for demonstration purposes.
+
+## 🚀 Future Enhancements
+
+Possible improvements to the solution include:
+
+- Integration with additional healthcare data sources
+- More advanced document processing for different invoice formats
+- Improved exception handling
+- Expanded validation rules
+- Dashboard for claim processing and monitoring
+- Integration with additional enterprise systems
+- Automated analytics and reporting
+- Enhanced human-in-the-loop review workflows
