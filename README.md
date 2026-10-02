@@ -66,6 +66,34 @@ extraction.
 The AI Agent uses the available tools and extracted information
 to support the claim validation process.
 
+## 🤖 AI Agent
+
+The AI Agent acts as the decision-making component of the claim validation workflow.
+
+After claim information is extracted from the medical invoice, the AI Agent:
+
+1. Reviews the extracted claim information.
+2. Checks whether required information is complete.
+3. Uses a validation tool to verify the Patient ID and retrieve coverage information.
+4. Evaluates the claim amount against the available coverage.
+5. Determines the appropriate outcome.
+6. Uses the available tools to support the workflow.
+7. Generates the appropriate response for the claim.
+
+### Why an AI Agent?
+
+A traditional rule-based bot would require each decision and exception to be explicitly implemented as a fixed sequence of conditions.
+
+The AI Agent provides a decision-making layer that can interpret the extracted claim information, identify missing information, use available tools, and determine the appropriate workflow outcome while still operating within defined business rules.
+
+### Agent Outcomes
+
+| Condition | Outcome |
+|---|---|
+| Required information missing | `INCOMPLETE` |
+| Claim is within available coverage | `AUTO_APPROVE` |
+| Claim requires additional assessment | `HUMAN_REVIEW` |
+
 ### Validation Tools
 
 Patient and coverage information is validated against the
