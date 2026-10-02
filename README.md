@@ -119,7 +119,7 @@ demonstrate the solution workflow.
 - 🏗️ [Solution Architecture](architecture/architecture.png)
 - 📋 [Sample Claim JSON](sample-data/sample_claim.json)
 - 👤 [Sample Patient Coverage Data](sample-data/patient_coverage.csv)
-- 📖 [Claim Validation Rules](docs/validation-rules.md)
+- 📖 [Claim Validation Rules](Docs/validation-rules.md)
 
 ## 🚀 Project Status
 
